@@ -106,9 +106,8 @@ public class User {
 	 * @return the user's full name
 	 */
 	public String getFullName() {
-		// Wait...the order here doesn't seem quite right...
-		// I think I found the bug!!!
-		return this.getLastName() + " " + this.getFirstName();
+
+		return this.getFirstName() + " " + this.getLastName() ;
 	}
 	
 }
